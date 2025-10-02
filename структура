@@ -1,0 +1,16 @@
+ofelia-shop/
+│
+├── index.html (Главная страница)
+├── catalog.html (Каталог товаров)
+├── product.html (Страница товара)
+├── cart.html (Корзина)
+├── profile.html (Профиль пользователя)
+├── services.html (Услуги)
+├── css/
+│   └── style.css (Общие стили)
+├── js/
+│   ├── main.js (Общие функции)
+│   ├── products.js (Данные о товарах)
+│   └── auth.js (Функции авторизации)
+└── images/
+    └── (изображения товаров)

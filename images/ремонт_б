@@ -1,0 +1,56 @@
+<section class="section">
+    <h2 class="section-title">Холодильники</h2>
+    <div class="products-grid">
+        <!-- Товар 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/250x200" alt="Холодильник">
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Холодильник Samsung RB37</h3>
+                <div class="product-price">54 990 ₽</div>
+                <ul class="product-features">
+                    <li>Объем: 367 л</li>
+                    <li>No Frost</li>
+                    <li>Энергопотребление: A+</li>
+                </ul>
+                <button class="btn btn-block" onclick="addToCart(1)">В корзину</button>
+            </div>
+        </div>
+        
+        <!-- Товар 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/250x200" alt="Холодильник Side by Side">
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Холодильник LG Side by Side</h3>
+                <div class="product-price">89 990 ₽</div>
+                <ul class="product-features">
+                    <li>Объем: 635 л</li>
+                    <li>Двойная система No Frost</li>
+                    <li>Диспенсер для воды и льда</li>
+                </ul>
+                <button class="btn btn-block" onclick="addToCart(2)">В корзину</button>
+            </div>
+        </div>
+        
+        <!-- Товар 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="sale-badge">-15%</div>
+                <img src="https://via.placeholder.com/250x200" alt="Многодверный холодильник">
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Холодильник Bosch MultiDoor</h3>
+                <div class="product-price">76 490 ₽</div>
+                <ul class="product-features">
+                    <li>Объем: 569 л</li>
+                    <li>4 двери</li>
+                    <li>Технология VitaFresh</li>
+                </ul>
+                <button class="btn btn-block" onclick="addToCart(3)">В корзину</button>
+            </div>
+        </div>
+    </div>
+</section>
